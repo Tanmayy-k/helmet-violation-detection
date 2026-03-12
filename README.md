@@ -168,13 +168,13 @@ Can be extended to:
 - Traffic enforcement systems
 - CCTV integration
 - Automated fine generation
-- RTO database integration
-
 ---
 
 ## 👥 Team
-- Tanmay K
-- [Teammate Name]
+- Tanmay Kshirsagar
+- Atharva Borate
+- Khushi Bhadangkar
+- Anushri Ghosh
 
 ---
 
