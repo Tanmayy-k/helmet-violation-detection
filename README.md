@@ -1,4 +1,5 @@
 # 🪖 Smart Helmet Violation Detection System
+
 ### AI-Based Campus Safety Enforcement | Computer Vision Project
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
@@ -9,6 +10,7 @@
 ---
 
 ## 📌 Problem Statement
+
 College campuses face challenges enforcing helmet rules at entry gates.
 Manual checking is inefficient, inconsistent, and requires dedicated staff.
 This system automates the entire process using AI and computer vision.
@@ -16,7 +18,9 @@ This system automates the entire process using AI and computer vision.
 ---
 
 ## 💡 Solution
+
 A real-time AI system placed at the college entry gate that:
+
 - Detects riders without helmets automatically
 - Captures violation images with timestamp
 - Reads number plate using OCR
@@ -25,24 +29,26 @@ A real-time AI system placed at the college entry gate that:
 ---
 
 ## 🎯 Features
-| Feature | Status |
-|--------|--------|
-| Real-time helmet detection | ✅ Done |
-| No-helmet violation trigger | ✅ Done |
-| Violation image capture | ✅ Done |
-| Number plate detection | ✅ Done |
-| OCR plate text reading | ✅ Done |
-| 10 second cooldown timer | ✅ Done |
-| Live violation counter on screen | ✅ Done |
-| Red border alert on violation | ✅ Done |
-| Beep sound on violation | ✅ Done |
-| Confidence score logging | ✅ Done |
-| Hourly violation stats | ✅ Done |
-| Web dashboard | 🔄 In Progress |
+
+| Feature                          | Status         |
+| -------------------------------- | -------------- |
+| Real-time helmet detection       | ✅ Done        |
+| No-helmet violation trigger      | ✅ Done        |
+| Violation image capture          | ✅ Done        |
+| Number plate detection           | ✅ Done        |
+| OCR plate text reading           | ✅ Done        |
+| 10 second cooldown timer         | ✅ Done        |
+| Live violation counter on screen | ✅ Done        |
+| Red border alert on violation    | ✅ Done        |
+| Beep sound on violation          | ✅ Done        |
+| Confidence score logging         | ✅ Done        |
+| Hourly violation stats           | ✅ Done        |
+| Web dashboard                    | 🔄 In Progress |
 
 ---
 
 ## 🧠 AI Model
+
 - Architecture: YOLOv5s
 - Confidence Threshold: 0.65
 - NMS IoU Threshold: 0.45
@@ -55,18 +61,20 @@ A real-time AI system placed at the college entry gate that:
 ---
 
 ## 🛠️ Tech Stack
-| Category | Technology |
-|----------|-----------|
-| AI Model | YOLOv5 |
-| Language | Python 3.14 |
-| Computer Vision | OpenCV |
-| OCR | EasyOCR |
-| Deep Learning | PyTorch |
-| Web Dashboard | Flask + HTML/CSS |
+
+| Category        | Technology       |
+| --------------- | ---------------- |
+| AI Model        | YOLOv5           |
+| Language        | Python 3.14      |
+| Computer Vision | OpenCV           |
+| OCR             | EasyOCR          |
+| Deep Learning   | PyTorch          |
+| Web Dashboard   | Flask + HTML/CSS |
 
 ---
 
 ## 📁 Project Structure
+
 ```
 helmet-violation-detection/
 │
@@ -96,6 +104,7 @@ helmet-violation-detection/
 ---
 
 ## ⚙️ How It Works
+
 ```
 Camera Feed
     ↓
@@ -122,22 +131,26 @@ Violation Check (head detected without nearby helmet?)
 ## ▶️ How to Run
 
 **1. Clone the repository**
+
 ```bash
 git clone https://github.com/Tanmayy-k/helmet-violation-detection
 cd helmet-violation-detection
 ```
 
 **2. Activate virtual environment**
+
 ```bash
 .\venv\Scripts\activate
 ```
 
 **3. Install dependencies**
+
 ```bash
 pip install -r requirements.txt
 ```
 
 **4. Run detection**
+
 ```bash
 python yolov5.py
 ```
@@ -149,9 +162,9 @@ python yolov5.py
 ## 📊 Output Files
 
 **violations_log.csv**
-| timestamp | plate_text | confidence | image_path |
+| timestamp | plate*text | confidence | image_path |
 |-----------|-----------|------------|------------|
-| 2024-03-12 14:30:22 | MH31AB1234 | 0.87 | violations/violation_... |
+| 2024-03-12 14:30:22 | MH31AB1234 | 0.87 | violations/violation*... |
 
 **hourly_stats.csv**
 | date | hour | count |
@@ -161,16 +174,20 @@ python yolov5.py
 ---
 
 ## 🏫 Use Case
+
 > Deployed at college entry gate to enforce helmet rules,
 > reduce manual checking and improve campus safety.
 
 Can be extended to:
+
 - Traffic enforcement systems
 - CCTV integration
 - Automated fine generation
+
 ---
 
 ## 👥 Team
+
 - Tanmay Kshirsagar
 - Atharva Borate
 - Khushi Bhadangkar
@@ -179,4 +196,5 @@ Can be extended to:
 ---
 
 ## 📄 License
+
 MIT License
