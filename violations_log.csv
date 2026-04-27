@@ -1,0 +1,14 @@
+timestamp,plate_text,confidence,image_path
+2026-04-27 09:15:00,MH12XX3456,0.88,violations/demo_violation_1.png
+2026-04-27 09:30:00,MH12XX1122,0.91,violations/demo_violation_2.png
+2026-04-27 09:45:00,MH12WZ7654,0.84,violations/demo_violation_3.png
+2026-04-27 10:00:00,MH12TR5667,0.79,violations/demo_violation_4.png
+2026-04-27 10:15:00,MH12XX2334,0.95,violations/demo_violation_5.png
+2026-04-27 18:54:57,MH12TT6188,0.85,violations/violation_2026-04-27_18-54-57.jpg
+2025-03-25 08:58:38,MH12KH700,0.82,violations/violation_2026-03-25_08-58-38.jpg
+2026-04-27 20:02:17,PLATE NOT DETECTED,N/A,violations/violation_2026-04-27_20-02-17.jpg
+2026-04-27 20:02:18,PLATE NOT DETECTED,N/A,violations/violation_2026-04-27_20-02-18.jpg
+2026-04-27 20:03:21,PLATE NOT DETECTED,N/A,violations/violation_2026-04-27_20-03-21.jpg
+2026-04-27 20:03:22,PLATE NOT DETECTED,N/A,violations/violation_2026-04-27_20-03-22.jpg
+2026-04-27 20:05:16,MH12TT6188,0.85,violations/violation_2026-04-27_20-05-16.jpg
+2026-04-27 20:05:17,MH12TT6188,0.85,violations/violation_2026-04-27_20-05-17.jpg
