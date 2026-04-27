@@ -38,7 +38,7 @@ A real-time AI system placed at the college entry gate that:
 | Beep sound on violation | ✅ Done |
 | Confidence score logging | ✅ Done |
 | Hourly violation stats | ✅ Done |
-| Web dashboard | 🔄 In Progress |
+| Web dashboard |✅  Done |
 
 ---
 
